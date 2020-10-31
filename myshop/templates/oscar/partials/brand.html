@@ -1,0 +1,12 @@
+{% load static %}
+<span class="navbar-brand" style="text-indent: -9999px;
+    display: block;
+    width: 60px;
+    height: 38px;
+    padding: 0;
+    margin-left: 15px;
+    margin-top: 5px;"><img src="{% static 'image/shop_icon.jpeg' %}" width="60px" height="38px">
+</span>
+<span class="h1">
+    <a href="{{ homepage_url }}" class="brand_name">{% block brand_title %}{{ shop_name }}{% endblock %}</a><small> {{ shop_tagline }}</small>
+</span>
